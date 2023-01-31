@@ -29,6 +29,6 @@ https://openweathermap.org/
 
 <img width="1435" alt="Screenshot 2023-01-30 at 22 43 19" src="https://user-images.githubusercontent.com/60551329/215657884-410ef7db-bbc3-4e10-a815-8a5e8d9e9f5a.png">
 
-<img width="749" alt="Screenshot 2023-01-30 at 22 52 47" src="https://user-images.githubusercontent.com/60551329/215659238-914fa508-ab84-4776-bf34-27da1c9bca38.png">
+![photo_2023-01-30 22 55 47](https://user-images.githubusercontent.com/60551329/215659362-f7237518-7393-4c51-a846-6b6074450cee.jpeg)
 
 

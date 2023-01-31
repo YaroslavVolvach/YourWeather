@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>YourWeather</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Weather Dashboard</h1>
+         </nav>
+    </header>
+
+    <aside>
+        <h2>Search for a city:</h2>
+        <form id="form">
+            <input name="input" form="form" type="text" placeholder="Toronto"/>
+            <button type="submit" form="form">Search</button>
+        </form>
+        <button  id="clear-history">Clear History</button>
+           
+    </aside>
+
+    <main>
+        <div id = 'area'>
+            <h2 id="area-title"> City </h2>
+            <p id="area-temp">Temp </p>
+            <img id="area-icon">
+            <p id="area-wind">Wind</p>
+            <p id="area-humidity">Humidity</p>
+        </div>
+        <h2 id="title-board">5-Day Forecast:</h2>
+        <div id="cards"></div>
+    </main>
+   
+    <footer>
+        <h2></h2>
+        <article>
+           
+        </article>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body header {
+    padding: 10px;
+    text-align: center;
+    background: cornflowerblue;
+    color: white;
+    font-size: 30px;
+  }
+
+body header nav h1 {
+    text-align: center;
+}
+
+aside {
+    float: left;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+main {
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+main h2{
+    text-align: center;
+}
+
+#area {
+    border-width: 2px;
+    border-style: solid;
+    min-height: 100px;
+    width: 97%;
+    margin-top: 15px;
+}
+
+.weather-card {
+    float: left;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-right: 16px;
+    width: 18%;
+    border-width: 2px;
+    border-style: solid;
+    min-height: 200px;
+}
+
+
+input {
+    width: 70%;
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: #000;
+    box-sizing: border-box;
+}
+
+
+.history-button {
+    background-color: darkgrey;
+}
+
+#clear-history {
+    background-color: cornflowerblue;
+}
+
+@media only screen and (max-width: 1160px) {
+    .weather-card {
+        width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .weather-card, button, input, aside, main {
+        width: 100%;
+  }
+ }
+
